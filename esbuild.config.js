@@ -38,7 +38,8 @@ const esbuildOptions = {
   ],
   globOptions: {
     excludeFilter: /\.(dsd|lit)\.css$/
-  }
+  },
+  publicPath: "/ruby-au-newsletter"
 }
 
 build(esbuildOptions)
